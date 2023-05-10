@@ -3,6 +3,7 @@
 #include <stdio.h>
 
 int n, m;
+
 int arr[101] = { 0, };
 
 int a, b;
