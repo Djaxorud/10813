@@ -5,6 +5,7 @@
 int n, m;
 int arr[101] = { 0, };
 int a, b;
+
 void swap(int idx1, int idx2) {
     int temp = arr[idx1];
     
