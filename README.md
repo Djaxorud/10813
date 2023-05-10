@@ -1,14 +1,19 @@
 #define _CRT_SECURE_NO_WARNINGS
+
 #include <stdio.h>
 
 int n, m;
+
 int arr[101] = { 0, };
+
 int a, b;
 
 
 void swap(int idx1, int idx2) {
     int temp = arr[idx1];
+    
     arr[idx1] = arr[idx2];
+    
     arr[idx2] = temp;
 }
 
