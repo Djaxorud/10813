@@ -7,6 +7,7 @@ int arr[101] = { 0, };
 int a, b;
 
 void swap(int idx1, int idx2) {
+
     int temp = arr[idx1];
     
     arr[idx1] = arr[idx2];
@@ -16,6 +17,7 @@ void swap(int idx1, int idx2) {
 
 
 int main() {
+
     scanf("%d %d", &n, &m);
 
     for (int i = 1; i <= n; i++) {
